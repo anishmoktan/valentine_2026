@@ -69,8 +69,7 @@ const App: React.FC = () => {
         <div className="fixed inset-0 z-[100] bg-rose-500 flex flex-col items-center justify-center p-6 text-white text-center">
           <Heart size={80} fill="white" className="animate-pulse mb-8" />
           <h1 className="dancing-script text-5xl md:text-7xl mb-12 drop-shadow-lg">
-            Shukriti Lama Vajhu Gurung Tamang <br /> <br />
-            You have a special message...
+            A special message...
           </h1>
           <button 
             onClick={startAudio}
