@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { GameAssets } from '../types';
 import { RefreshCw, Heart } from 'lucide-react';
@@ -36,19 +37,18 @@ export const SuccessView: React.FC<Props> = ({ assets, onRestart }) => {
 
         <div className="w-full mb-4 relative group">
           <div className="absolute inset-0 bg-rose-100 rounded-xl blur-lg opacity-20 group-hover:opacity-40 transition-opacity"></div>
-
           {assets.congratsImage && (
             <img 
               src={assets.congratsImage} 
               alt="Success" 
-              className="relative w-full h-[240px] md:h-[300px] object-cover rounded-xl border-2 border-white shadow-sm transform group-hover:rotate-1 transition-transform"
+              className="relative w-full max-h-[160px] md:max-h-[200px] object-cover rounded-xl border-2 border-white shadow-sm transform group-hover:rotate-1 transition-transform"
             />
           )}
         </div>
 
         <div className="space-y-2 mb-6">
           <h2 className="dancing-script text-3xl md:text-4xl text-rose-600 leading-tight">
-            You've made the right choice!
+            You have made the right choice!
           </h2>
           <div className="h-0.5 w-12 bg-rose-100 mx-auto rounded-full"></div>
           <p className="text-gray-500 text-sm md:text-base font-medium px-2">

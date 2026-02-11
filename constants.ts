@@ -9,7 +9,7 @@ export const INITIAL_ASSETS: GameAssets = {
   // Visuals (Images)
   girlfriendHead: 'assets/girlfriend_head.png', 
   couplePhoto: 'assets/couple_photo.jpg', 
-  sadMeme: 'assets/sad_meme.jpg', 
+  sadMeme: 'assets/sad_meme.png', 
   congratsImage: 'assets/congrats_image.jpg',
 
   // Audio (Sound effects and music)
